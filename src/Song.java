@@ -9,6 +9,7 @@ public class Song {
     }
 
     public String getTitle() {
+
         return title;
     }
 
@@ -26,4 +27,13 @@ public class Song {
 
         this.duration = duration;
     }
+
+
+    @Override
+    public String toString(){
+
+        return "Song title :" + title + ", Duration :"+ duration;
+    }
+
+
 }
